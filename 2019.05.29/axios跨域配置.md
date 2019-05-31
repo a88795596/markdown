@@ -10,6 +10,7 @@
 
 ### 配置多项代理
 
+```javascript
     devServer: {
       proxy: {
         '/api': {
@@ -30,3 +31,4 @@
         }
       }
     }
+```
